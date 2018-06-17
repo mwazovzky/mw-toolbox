@@ -1,0 +1,17 @@
+@import 'bootstrap/bootstrap';
+
+.panel { 
+    text-align: left; 
+    margin-bottom: 5px;
+}
+
+.panel-heading { 
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.panel-heading-main > *,
+.panel-footer > * { 
+    margin-top: 0; 
+    margin-bottom: 5px; 
+}

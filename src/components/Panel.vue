@@ -34,18 +34,5 @@
 </script>
 
 <style lang="sass" scoped>
-@import '../assets/sass/main.scss';
-
-.panel { 
-    text-align: left; 
-}
-.panel-heading { 
-    display: flex; 
-    justify-content: space-between; 
-}
-.panel-heading-main > *,
-.panel-footer > * { 
-    margin-top: 0; 
-    margin-bottom: 5px; 
-}
+@import '../assets/sass/panel.scss';
 </style>

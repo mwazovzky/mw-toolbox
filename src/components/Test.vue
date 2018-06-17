@@ -22,8 +22,7 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-@import '../assets/sass/main.scss';
-
+@import '../assets/sass/bootstrap.scss';
 .test h1 {
     color: #40b883;
 }
