@@ -1,7 +1,7 @@
 {
     "name": "mw-toolbox",
-    "description": "A Vue.js Plugin",
-    "version": "0.0.0",
+    "description": "A Vue.js UI Components",
+    "version": "0.0.1",
     "author": {
         "name": "Mike Wazovzky",
         "email": "mike.wazovzky@gmail.com"
@@ -22,6 +22,10 @@
         "build:common": "cross-env NODE_ENV=production webpack --config config/webpack.config.common.js --progress --hide-modules",
         "prepublish": "npm run build"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mikewazovzky/mw-toolbox.git"
+    },
     "devDependencies": {
         "babel-core": "^6.0.0",
         "babel-eslint": "^7.1.1",
@@ -37,11 +41,18 @@
         "eslint-plugin-promise": "^3.4.0",
         "eslint-plugin-standard": "^2.0.1",
         "extract-text-webpack-plugin": "^2.0.0-beta.4",
+        "file-loader": "^1.1.11",
         "node-sass": "^4.0.0",
         "sass-loader": "^4.1.0",
+        "url-loader": "^1.0.1",
         "vue-loader": "^10.0.0",
         "vue-template-compiler": "^2.1.6",
         "webpack": "^2.1.0-beta.28",
         "webpack-merge": "^1.1.2"
+    },
+    "dependencies": {
+        "bootstrap-sass": "^3.3.7",
+        "bulma": "^0.7.1",
+        "jquery": "^3.3.1"
     }
 }

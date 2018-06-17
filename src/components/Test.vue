@@ -1,6 +1,6 @@
 <template>
     <div class="test">
-        <h1>Greeting from mw-toolbox!</h1>
+        <h1>Greeting from mw-toolbox!!</h1>
     </div>
 </template>
 

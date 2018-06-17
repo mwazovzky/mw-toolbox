@@ -9,8 +9,8 @@
                     @mousemove="mouseMove"
                     @mouseleave="mouseLeave"
                     >
-                    <span class="close" @click="cancel">&times;</span>
                     <slot name="header"></slot>
+                    <button class="close" @click="cancel">&times;</button>
                 </div>
                 <div class="modal-content-body">
                     <slot></slot>
@@ -198,71 +198,6 @@
     };
 </script>
 
-<style scoped>
-/* Modal background */
-.modal-background {
-    display: block; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
-}
-
-/* Modal Content */
-.modal-content {
-    border: 1px solid #888;
-    border-radius: 3px;
-    width: 40%; /* Could be more or less, depending on screen size */
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    background-color: #FFFFFF;
-}
-
-.modal-content > div {
-    padding: 10px;
-}
-
-.modal-content-footer {
-    padding-top: 0 !important;
-}
-
-/* Modal Header */
-.modal-content-header {
-    background-color: #ECEFF1;
-    min-height: 40px;
-    border-top-left-radius:  3px;
-    border-top-right-radius: 3px;
-}
-
-/* The Close Button */
-.close {
-    float: right;
-    margin-top:   0px;
-    margin-right: 0px;
-
-    color: #aaa;
-    font-size: 42px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.fade-enter-active, .fade-leave-active {
-  transition: opacity .5s;
-}
-
-.fade-enter, .fade-leave-to {
-  opacity: 0;
-}
+<style lang="sass" scoped>
+@import '../assets/sass/main.scss';
 </style>
