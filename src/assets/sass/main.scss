@@ -1,12 +1,6 @@
-// // Bootstrap BULMA
-// @import "~bulma/sass/utilities/initial-variables";
-// @import "~bulma/sass/utilities/functions";
-// // Set variables 
-// $primary: $orange;
-
-// @import '~bulma/bulma';
-
 $icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+
+@import "defaults.scss";
 
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
 
